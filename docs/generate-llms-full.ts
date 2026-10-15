@@ -1,6 +1,6 @@
 import { writeFile } from 'fs/promises';
 import path from 'path';
-import { source, getLLMText } from '../lib/source';
+import { source, getLLMText } from './lib/source';
 
 async function main() {
   const pages = source.getPages();
